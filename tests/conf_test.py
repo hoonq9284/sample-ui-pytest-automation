@@ -1,12 +1,12 @@
-import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import WebDriverException
-import config.config as config
 from pages.main_page import MainPage
 from pages.login_page import LoginPage
 from pages.weather_page import WeatherPage
+import config.config as config
+import pytest
 
 
 @pytest.fixture(scope="function")
