@@ -40,7 +40,7 @@ login_page_button = '//button[@id="log.login"]'
 error_message = '//div[@class="error_message"]'
 
 # WeatherPage Elements
-weather_title = '네이버 날씨'
+weather_title = '네이버 날씨 홈'
 weather_logo = '//h1[@class="logo_area"]'
 weather_home_tap = '//a[contains(@href, "/today/") and contains(text(), "홈")]'
 weather_compare_tap = '//a[contains(@href, "/compare/") and contains(text(), "예보비교")]'

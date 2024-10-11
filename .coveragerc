@@ -1,0 +1,3 @@
+[run]
+omit =
+    pages/page_elements.py
